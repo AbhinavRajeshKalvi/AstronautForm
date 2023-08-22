@@ -38,6 +38,7 @@ body{
 }
 
  form{
+    height: 550px;
     position: absolute;
     top: 15%;
     left: 63%;
@@ -54,9 +55,84 @@ body{
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">);
 
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
   label{
     font-size: 16px;
     margin: 20px 0 40px 0;
   }
 
+  #finalbutton{
+    background-color: rgb(229, 122, 35);
+    color: rgb(250, 246, 246);
+    position: relative;
+    left: 25%;
+    top: -6%;
+    height: 8%;
+    width: 180px;
+    border-radius: 20px;
+  }
+  h1{
+    text-align: center;
+  }
+
+  #rentspacesuit{
+    position: relative;
+    top: -6%;
+  }
+
+  #mail{
+    position: relative;
+    top: -7%;
+    height: 7%;
+    width: 340px;
+  }
+  #mailtext{
+    position: relative;
+    top: -1%;
+  }
   
+  #Number{
+    height: 6%;
+    width: 340px;
+    position: relative;
+    top: -1%;
+  }
+
+#NumberText{
+    position: relative;
+    top: 5%;
+}
+
+#Country{
+    position: relative;
+    height: 8%;
+    width: 345px;
+    top: 5%;
+}
+
+#countrytext{
+    position: relative;
+    top: 3%;
+
+}
+
+#SpaceSuit{
+    position: relative;
+    top: -11%;
+}
+
+#SpaceSuit1{
+    position: relative;
+    top: -11%;
+}
+ #spacesuittext{
+    position: relative;
+    top: -11%;
+ }
+
+ #spacesuit1text{
+    position: relative;
+    top: -11%;
+ }
