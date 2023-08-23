@@ -60,79 +60,63 @@ body{
   }
   label{
     font-size: 16px;
-    margin: 20px 0 40px 0;
+    margin: 20px 0 4px 0;
   }
 
   #finalbutton{
     background-color: rgb(229, 122, 35);
     color: rgb(250, 246, 246);
-    position: relative;
-    left: 25%;
-    top: -6%;
-    height: 8%;
-    width: 180px;
     border-radius: 20px;
+    padding: 15px 20px;
+    border:  none;
+    margin:40px auto ;
+    position: relative;
+    left: 90px;
   }
   h1{
     text-align: center;
+    margin: 20px auto;
+    width: 270px;
+    font-size: 26px;
   }
 
-  #rentspacesuit{
-    position: relative;
-    top: -6%;
+  input[type="text"], input[type="email"], select{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0 5px;
   }
 
-  #mail{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #RocketDrifting{
+    height: 12%;
     position: relative;
-    top: -7%;
-    height: 7%;
-    width: 340px;
-  }
-  #mailtext{
-    position: relative;
-    top: -1%;
-  }
+    left: 600px;
+    top: 16%;
+    animation: rotate 100s infinite;
+   }
   
-  #Number{
-    height: 6%;
-    width: 340px;
-    position: relative;
-    top: -1%;
-  }
+   @keyframes rotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotateZ(7200deg);
+    }
+   } 
 
-#NumberText{
-    position: relative;
-    top: 5%;
-}
-
-#Country{
-    position: relative;
-    height: 8%;
-    width: 345px;
-    top: 5%;
-}
-
-#countrytext{
-    position: relative;
-    top: 3%;
-
-}
-
-#SpaceSuit{
-    position: relative;
-    top: -11%;
-}
-
-#SpaceSuit1{
-    position: relative;
-    top: -11%;
-}
- #spacesuittext{
-    position: relative;
-    top: -11%;
- }
-
- #spacesuit1text{
-    position: relative;
-    top: -11%;
- }
+  
